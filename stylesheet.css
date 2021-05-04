@@ -1,0 +1,90 @@
+/* 1: #223033 2: #FDFDFD 3: #96B0A3 */
+
+body {
+	background-color: #96B0A3;
+	color: #FDFDFD;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+div#header {
+	background-color: #223033;
+	text-align: center;
+	padding: 10pt;
+	width: 100%;
+}
+
+div.sectionHeader {
+	background-color: #223033;
+	text-align: center;
+	padding: 0pt 40pt;
+	margin: 40pt 20pt 20pt;
+	background: #223033;
+	border-radius:10pt;
+	overflow: hidden;
+}
+
+div.displayRow {
+	/* Resource for flex: https://www.w3schools.com/css//css3_flexbox_container.asp */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 40pt 20pt;
+	background: #223033;
+	border-radius:10pt;
+	overflow: hidden;
+	max-height: 250pt;
+}
+
+div.rowReverse {
+	flex-direction: row-reverse;
+}
+
+.displayImage {
+	width: 40%;
+	object-fit: cover;
+}
+
+div.displayDescription {
+	padding: 10pt 20pt;
+	width: 60%;
+	word-wrap: break-word;
+}
+
+div.buttonWrapper {
+	text-align: center;
+	margin: 40pt;
+}
+
+.button {
+	padding:10pt;
+	
+	border-radius:10pt;
+	border:none;
+	
+	font-size: 1.3rem;
+	font-family: 'Raleway', sans-serif;
+	
+	background: #96B0A3;
+	border: 2pt solid #96B0A3;
+	color: #FDFDFD;
+}
+
+a {
+	text-decoration: none;
+}
+  
+.button:hover {
+	background: #96B0A3dd;
+}
+  
+.button:active {
+	background: #96B0A3aa;
+}
+
+hr.solid {
+	border-top: 3pt solid #223033;
+}
