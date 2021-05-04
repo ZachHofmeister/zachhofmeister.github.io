@@ -36,7 +36,7 @@ div.displayRow {
 	background: #223033;
 	border-radius:10pt;
 	overflow: hidden;
-	max-height: 250pt;
+	/* max-height: 250pt; */
 }
 
 div.rowReverse {
@@ -56,7 +56,7 @@ div.displayDescription {
 
 div.buttonWrapper {
 	text-align: center;
-	margin: 40pt;
+	margin: 40pt 0pt;
 }
 
 .button {
