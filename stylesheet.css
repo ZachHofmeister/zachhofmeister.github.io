@@ -88,3 +88,7 @@ a {
 hr.solid {
 	border-top: 3pt solid #223033;
 }
+
+iframe {
+	border: 0;
+}
